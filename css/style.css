@@ -1,0 +1,29 @@
+.content{
+	position: absolute;
+	top: 20%;
+	left: 35%;
+}
+
+.searchBox{
+	position: absolute;
+}
+
+.search{
+	float: left;
+	padding-left: 10px;
+	padding-right: 0px;
+	border-radius: 25px;
+}
+
+.find{
+	float: inherit;
+	padding-top: 2px;
+	margin-top: 5px;
+}
+
+.WikiPedro{
+	font-family: 'Crete Round', serif;
+    font-size: 85px;
+    text-align: -webkit-center;
+}
+
