@@ -1,0 +1,57 @@
+.loginfo{
+	position: absolute;
+    font-size: 14px;
+}
+
+.content{
+	position: absolute;
+	top: 30%;
+	left: 35%;
+}
+
+.searchBox{
+	position: absolute;
+}
+
+.search{
+	float: left;
+	padding-left: 10px;
+	padding-right: 0px;
+	border-radius: 25px;
+}
+
+.find{
+	float: inherit;
+	padding-top: 2px;
+	margin-top: 5px;
+}
+
+.WikiPedro{
+	font-family: 'Crete Round', serif;
+    font-size: 85px;
+    text-align: -webkit-center;
+}
+
+.menu{
+	background-color: #b29d85;
+}
+
+.searchSidebar{
+	position: absolute;
+	background-color: rgba(185,122,87,0.5);
+	height: 900px;
+}
+
+.searchField2{
+	width: 200px;
+}
+
+
+.WikiPedroLogo{
+	font-family: 'Crete Round', serif;
+    font-size: 50px;
+	float: center;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-bottom: 30px;
+}
