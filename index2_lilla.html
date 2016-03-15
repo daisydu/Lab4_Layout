@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+    <!-- Latest compiled and minified JavaScript -->
+    <!-- Bootstrap JavaScript, needed if you want for instance tabs, models, popovers etc. -->
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+     <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <link href='https://fonts.googleapis.com/css?family=Crete+Round' rel='stylesheet' type='text/css'>
+    <style type="text/css">
+	body{
+	        background-image:url(images/background.png);
+	        background-size: 100%, 100%;
+	    }
+ </style>
+
+
+<body>
+
+  <div class="col-md-3 searchSidebar">
+    <div class="WikiPedroLogo"><span style="color:rgb(98,98,98)">Wiki</span><span style="color:#FD6721">Pedro</span></div>
+	<div class="col-md-2 searchField2"><input type="text"  class="form-control" name="Field" id="Field" value="" placeholder="Search"></div>
+	<div class="searchButton2"><button type="button" class="btn button-default" onclick="makeGraph()">FETCH</button></div>
+    <p id="space"></p>
+    <p id="space2"></p>
+  </div>
+  <div class="col-md-9" id="displayGraph">
+  </div>
+
+  
+<!-- Loading stuff -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="mediawiki-js-master/MediawikiJS.js"></script>
+<script src="script.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
